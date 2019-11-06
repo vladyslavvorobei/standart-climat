@@ -155,8 +155,8 @@ get_header(); ?>
           </div>
           <div class="swiper-pagination"></div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next worker__button-next"></div>
+      <div class="swiper-button-prev worker__button-prev"></div>
       </div>
     </div>
   </section>
@@ -184,8 +184,8 @@ get_header(); ?>
           </div>
           <div class="swiper-pagination"></div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next certificates__button-next"></div>
+        <div class="swiper-button-prev certificates__button-prev"></div>
       </div>
     </div>
   </section>
