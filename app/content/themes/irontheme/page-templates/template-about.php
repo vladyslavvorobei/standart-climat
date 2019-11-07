@@ -7,10 +7,10 @@ get_header(); ?>
   <section class="about" style="background-image: url('<?php echo THEME_URL; ?>/img/about-bg.jpg')">
     <div class="container">
       <div class="title title--no-number">
-        <h2> о нас <strong> Компания </strong>
+        <h2  data-aos="fade-right" data-aos-offset="600"> о нас <strong data-aos="fade-up" data-aos-offset="600"> Компания </strong>
         </h2>
       </div>
-      <div class="about__content">
+      <div class="about__content" data-aos="fade-up" data-aos-offset="600">
         <?php $about = get_field( 'about' );
 
         echo $about['text']; ?>
@@ -29,11 +29,11 @@ get_header(); ?>
         <div class="container">
           <div class="benefits__block">
             <div class="title">
-              <p> 01 </p>
-              <h2> преимущества <strong> Наши преимущества: </strong>
+              <p data-aos="fade-right" data-aos-offset="600"> 01 </p>
+              <h2 data-aos="fade-left" data-aos-offset="500"> преимущества <strong data-aos="fade-up" data-aos-duration="500" data-aos-offset="600"> Наши преимущества: </strong>
               </h2>
             </div>
-            <div class="benefits__item">
+            <div class="benefits__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="500">
               <div class="benefits__img">
                 <img src="<?php echo THEME_URL; ?>/img/ben-icon-1.png">
               </div>
@@ -42,7 +42,7 @@ get_header(); ?>
                 <p> Имея большой опыт и штат специалистов, мы осуществляем полный комплекс работ в области климатических систем от разработки концепции и предварительной экономической оценки до сдачи в эксплуатацию и сервисным обслуживанием. Обратившись к нам, Заказчик может рассчитывать на полную поддержку на всех стадиях разработки и внедрения климатических систем. </p>
               </div>
             </div>
-            <div class="benefits__item">
+            <div class="benefits__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="500">
               <div class="benefits__img">
                 <img src="<?php echo THEME_URL; ?>/img/ben-icon-2.png">
               </div>
@@ -50,7 +50,7 @@ get_header(); ?>
                 <h3> Бесплатный выезд, консультация и оценка проекта. </h3>
               </div>
             </div>
-            <div class="benefits__item">
+            <div class="benefits__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="500">
               <div class="benefits__img">
                 <img src="<?php echo THEME_URL; ?>/img/ben-icon-3.png">
               </div>
@@ -65,7 +65,7 @@ get_header(); ?>
       <div class="benefits__inner-wrapper" style="background-image: url('<?php echo THEME_URL; ?>/img/ben-bg-2.jpg')">
         <div class="container">
           <div class="benefits__block">
-            <div class="benefits__item">
+            <div class="benefits__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="500">
               <div class="benefits__img">
                 <img src="<?php echo THEME_URL; ?>/img/ben-icon-4.png">
               </div>
@@ -74,7 +74,7 @@ get_header(); ?>
                 <p> Мы не используем шабашников и наемные монтажные бригады. Все наши специалисты граждане РФ, имеющие опыт работы от трех лет, весь необходимый инструмент и автотранспорт. </p>
               </div>
             </div>
-            <div class="benefits__item">
+            <div class="benefits__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="500">
               <div class="benefits__img">
                 <img src="<?php echo THEME_URL; ?>/img/ben-icon-5.png">
               </div>
@@ -83,7 +83,7 @@ get_header(); ?>
                 <p> Мы имеем огромный опыт в области инженерных систем и любим решать сложные технические задачи. Мы специализируемся на VRV/VRF системах, системах чиллер-фанкоил, центральных системах кондиционирования, системах дымоудаления, системах потолочного охлаждения, VAV системах вентиляции, системах осушения и увлажнения. </p>
               </div>
             </div>
-            <div class="benefits__item">
+            <div class="benefits__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="500">
               <div class="benefits__img">
                 <img src="<?php echo THEME_URL; ?>/img/ben-icon-6.png">
               </div>
@@ -97,14 +97,14 @@ get_header(); ?>
       <div class="benefits__inner-wrapper" style="background-image: url('<?php echo THEME_URL; ?>/img/ben-bg-3.jpg')">
         <div class="container">
           <div class="benefits__block">
-            <div class="benefits__item">
+            <div class="benefits__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="500">
               <div class="benefits__img">
               </div>
               <div class="benefits__text">
                 <h4> Мы несем реальную ответственность за взятые на себя обязательства, поэтому даем только обещания, которые можем выполнить. </h4>
               </div>
             </div>
-            <div class="benefits__item">
+            <div class="benefits__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="500">
               <div class="benefits__img">
                 <img src="<?php echo THEME_URL; ?>/img/ben-icon-1.svg">
               </div>
@@ -113,7 +113,7 @@ get_header(); ?>
                 <p> Нашли неисправность в работе инженерной системы? Звоните – наши специалисты приедут в течение 3 дней и исправят проблему бесплатно. </p>
               </div>
             </div>
-            <div class="benefits__item">
+            <div class="benefits__item" data-aos="fade-up" data-aos-offset="400" data-aos-duration="500">
               <div class="benefits__img">
                 <img src="<?php echo THEME_URL; ?>/img/ben-icon-2.svg">
               </div>
@@ -137,8 +137,8 @@ get_header(); ?>
   <section class="worker" style="background-image: url('<?php echo THEME_URL; ?>/img/worker-bg.jpg')">
     <div class="container">
       <div class="title">
-        <p> 02 </p>
-        <h2> сотрудники <strong> Ключевые сотрудники нашей компании </strong>
+        <p data-aos="fade-right" data-aos-offset="600"> 02 </p>
+        <h2 data-aos="fade-left" data-aos-offset="500"> сотрудники <strong data-aos="fade-up" data-aos-offset="600"> Ключевые сотрудники нашей компании </strong>
         </h2>
       </div>
       <div class="worker__description"> они несут 100% ответственность за Ваш проект на всех этапах сотрудничества </div>
@@ -166,8 +166,8 @@ get_header(); ?>
   <section class="certificates">
     <div class="container">
       <div class="title">
-        <p> 03 </p>
-        <h2> сертификаты <strong> Качество нашей работы </strong>
+        <p data-aos="fade-right" data-aos-offset="600"> 03 </p>
+        <h2 data-aos="fade-left" data-aos-offset="500"> сертификаты <strong data-aos="fade-up" data-aos-offset="600"> Качество нашей работы </strong>
         </h2>
       </div>
       <div class="worker__description"> подтверждают более 20 профессиональных организаций </div>
