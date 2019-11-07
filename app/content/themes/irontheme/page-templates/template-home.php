@@ -97,37 +97,37 @@ get_header(); ?>
         <li>
         </li>
         <li>
-          <img src="<?php echo THEME_URL; ? data-aos="fade-up" data-aos-offset="400">/img/02-logo-1.jpg" alt="">
+          <img src="<?php echo THEME_URL; ?>/img/02-logo-1.jpg" alt="" data-aos="fade-up" data-aos-offset="400">
         </li>
         <li>
-          <img src="<?php echo THEME_URL; ? data-aos="fade-up" data-aos-offset="400">/img/02-logo-2.jpg" alt="">
+          <img src="<?php echo THEME_URL; ?>/img/02-logo-2.jpg" alt="" data-aos="fade-up" data-aos-offset="400">
         </li>
         <li>
-          <img src="<?php echo THEME_URL; ? data-aos="fade-up" data-aos-offset="400">/img/02-logo-3.jpg" alt="">
+          <img src="<?php echo THEME_URL; ?>/img/02-logo-3.jpg" alt="" data-aos="fade-up" data-aos-offset="400">
         </li>
         <li>
-          <img src="<?php echo THEME_URL; ? data-aos="fade-up" data-aos-offset="400">/img/02-logo-4.jpg" alt="">
+          <img src="<?php echo THEME_URL; ?>/img/02-logo-4.jpg" alt="" data-aos="fade-up" data-aos-offset="400">
         </li>
         <li>
-          <img src="<?php echo THEME_URL; ? data-aos="fade-up" data-aos-offset="400">/img/02-logo-5.jpg" alt="">
+          <img src="<?php echo THEME_URL; ?>/img/02-logo-5.jpg" alt="" data-aos="fade-up" data-aos-offset="400">
         </li>
         <li>
-          <img src="<?php echo THEME_URL; ? data-aos="fade-up" data-aos-offset="400">/img/02-logo-6.jpg" alt="">
+          <img src="<?php echo THEME_URL; ?>/img/02-logo-6.jpg" alt="" data-aos="fade-up" data-aos-offset="400">
         </li>
         <li>
-          <img src="<?php echo THEME_URL; ? data-aos="fade-up" data-aos-offset="400">/img/02-logo-7.jpg" alt="">
+          <img src="<?php echo THEME_URL; ?>/img/02-logo-7.jpg" alt="" data-aos="fade-up" data-aos-offset="400">
         </li>
         <li>
-          <img src="<?php echo THEME_URL; ? data-aos="fade-up" data-aos-offset="400">/img/02-logo-8.jpg" alt="">
+          <img src="<?php echo THEME_URL; ?>/img/02-logo-8.jpg" alt="" data-aos="fade-up" data-aos-offset="400">
         </li>
         <li>
-          <img src="<?php echo THEME_URL; ? data-aos="fade-up" data-aos-offset="400">/img/02-logo-9.jpg" alt="">
+          <img src="<?php echo THEME_URL; ?>/img/02-logo-9.jpg" alt="" data-aos="fade-up" data-aos-offset="400">
         </li>
         <li>
-          <img src="<?php echo THEME_URL; ? data-aos="fade-up" data-aos-offset="400">/img/02-logo-10.jpg" alt="">
+          <img src="<?php echo THEME_URL; ?>/img/02-logo-10.jpg" alt="" data-aos="fade-up" data-aos-offset="400">
         </li>
         <li>
-          <img src="<?php echo THEME_URL; ? data-aos="fade-up" data-aos-offset="400">/img/02-logo-11.jpg" alt="">
+          <img src="<?php echo THEME_URL; ?>/img/02-logo-11.jpg" alt="" data-aos="fade-up" data-aos-offset="400">
         </li>
       </ul>
     </div>
