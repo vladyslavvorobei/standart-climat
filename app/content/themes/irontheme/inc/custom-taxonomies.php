@@ -38,6 +38,7 @@ function services_cat_taxonomy() {
     'show_admin_column'          => true,
     'show_in_nav_menus'          => true,
     'show_tagcloud'              => true,
+    'show_in_rest'               => true
   );
   register_taxonomy( 'services_cat', array( 'services' ), $args );
 

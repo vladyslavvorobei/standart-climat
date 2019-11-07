@@ -249,6 +249,13 @@ input[type="tel"].error{
   z-index: -1;
 }
 
+.footer__dev a {
+  display: flex !important;
+  border-bottom: 0 !important;
+}
+
+
+/* Media */
 @media only screen and (max-width: 991px) {
   .test.calculator__block .main {
     padding-top: 0;

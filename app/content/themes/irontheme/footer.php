@@ -47,8 +47,11 @@
       </p>
       <p> © ООО «Стандарт-Климат» </p>
       <div class="footer__dev">
-        <p> Разработка сайта и продвижение </p>
-        <img src="<?php echo THEME_URL; ?>/img/logo-zenga.png" alt="">
+        <p>
+          <a href="http://zenga.ru/" target="_blank">Разработка сайта и продвижение
+            <img src="<?php echo THEME_URL; ?>/img/logo-zenga.png" alt="">
+          </a>
+        </p>
       </div>
     </div>
   </div>

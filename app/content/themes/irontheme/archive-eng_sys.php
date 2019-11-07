@@ -8,9 +8,10 @@
       <div class="engin-sys__description"> Компания "Стандарт Климат" выполняет полный цикл работ начиная с <strong>проекта</strong> и заканчивая сервисным обслуживанием. </div>
 
       <?php
-      if (have_posts()): ?>
+      $sys = get_any_post( 'eng_sys', -1 );
+      if ($sys->have_posts()): ?>
         <div class="engin-sys__grid">
-          <?php while (have_posts()): the_post(); ?>
+          <?php while ($sys->have_posts()): $sys->the_post(); ?>
             <a href="<?php the_permalink(); ?>">
               <?php the_post_thumbnail('medium'); ?>
               <h3><?php the_title(); ?></h3>

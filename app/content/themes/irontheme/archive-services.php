@@ -12,16 +12,17 @@
         <p> Среди основных направлений деятельности мы готовы предложить своим клиентам следующее: </p>
       </div>
 
-      <?php if (have_posts()): ?>
+      <?php $services = get_any_post( 'services', -1 );
+      if ($services->have_posts()): ?>
         <div class="services__grid">
-          <?php while (have_posts()): the_post();
+          <?php while ($services->have_posts()): $services->the_post();
             if ( ! has_term( '', 'services_cat') ): ?>
               <a href="<?php the_permalink(); ?>">
                 <?php the_post_thumbnail( 'large' ); ?>
                 <h3> <?php the_title(); ?> </h3>
               </a>
             <?php endif;
-          endwhile; ?>
+          endwhile; wp_reset_postdata(); ?>
         </div>
       <?php endif; ?>
     </div>
@@ -43,11 +44,10 @@
             </h2>
           </div>
           <div class="type-services__block type-services__block--design">
-            <?php $services = get_any_post( 'services', -1, 'services_cat', $term->term_id );
-
-            if ($services->have_posts()): ?>
+            <?php $services_term = get_any_post( 'services', -1, 'services_cat', $term->term_id );
+            if ($services_term->have_posts()): ?>
             <ul>
-              <?php while ($services->have_posts()): $services->the_post(); ?>
+              <?php while ($services_term->have_posts()): $services_term->the_post(); ?>
                 <li>
                   <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                 </li>

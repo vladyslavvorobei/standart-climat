@@ -11,7 +11,7 @@ get_header(); ?>
     </div>
     <div class="engin-sys__description"> Компания "Стандарт Климат" выполняет полный цикл работ начиная с проекта и заканчивая сервисным обслуживанием. </div>
 
-    <?php $posts = get_any_post( 'post', -1 );
+    <?php $posts = get_any_post( 'post', -1, 'category', 1 );
 
     if ($posts->have_posts()): ?>
     <div class="engin-sys__grid">

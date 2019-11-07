@@ -1,7 +1,7 @@
 <?php
 	$SITE_TITLE = 'StandardClimate';
 	$SITE_DESCR = 'Письмо с сайта СтандартКлимат';
-  $to = 'ВАШ ЕМАЙЛ';
+  $to = 'classicclimat@yandex.ru';
 
 	if ( isset($_POST) ) {
 		$name = htmlspecialchars(trim($_POST['name']));

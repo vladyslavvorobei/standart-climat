@@ -79,6 +79,7 @@ function services_post_type() {
     'label'                 => __( 'Услуга', 'ith' ),
     'labels'                => $labels,
     'supports'              => array( 'title', 'editor', 'thumbnail' ),
+    'taxonomies'            => array( 'services_cat' ),
     'hierarchical'          => false,
     'public'                => true,
     'show_ui'               => true,

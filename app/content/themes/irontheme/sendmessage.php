@@ -1,7 +1,7 @@
 <?php
 if (isset($_SERVER['HTTP_REFERER'])) 
 {
-	$sendto  = 'secretlines@yandex.ru';
+	$sendto  = 'classicclimat@yandex.ru';
 	$from  = 'info@st-ovk.ru';
 	$subject  = 'Заявка (Стандарт Климат)';
 	$headers  = "From: ".$from."\r\n";

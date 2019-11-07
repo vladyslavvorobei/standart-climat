@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26b5313c939bc2d4fa412d2323316112",
+    "content-hash": "e5719a3fa5ee77641d7c5a5fb5b750e3",
     "packages": [
         {
             "name": "composer/installers",
@@ -257,6 +257,26 @@
             "time": "2018-11-09T20:10:38+00:00"
         },
         {
+            "name": "wpackagist-plugin/all-in-one-wp-migration",
+            "version": "7.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/all-in-one-wp-migration/",
+                "reference": "tags/7.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/all-in-one-wp-migration/"
+        },
+        {
             "name": "wpackagist-plugin/clearfy",
             "version": "1.6.0",
             "source": {
@@ -318,15 +338,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "5.1.1",
+            "version": "5.1.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/5.1.1"
+                "reference": "tags/5.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.1.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.1.2.zip",
                 "reference": null,
                 "shasum": null
             },
