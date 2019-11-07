@@ -2,3 +2,267 @@
  * Theme Name: Iron Theme
  * Version: 1.0
  */
+
+.calculator {
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+
+.test.calculator__block {
+  padding-top: 70px;
+  padding-bottom: 110px;
+}
+.test.calculator__block .main {
+  padding-top: 70px;
+}
+
+
+.test .steps {
+  display: none;
+  padding-top: 80px;
+}
+.test .steps > .num {
+  max-width: 580px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.test .steps > .num .text .caption {
+  font-size: 14px;
+}
+.test .steps > .num .line {
+  position: relative;
+  height: 4px;
+  background-color: #00003c;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  margin-top: 5px;
+}
+.test .steps > .num .line .fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #44b2e4;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.test .steps .step {
+  margin-top: 30px;
+}
+.test .steps .step > .table {
+  display: table;
+  width: 100%;
+}
+.test .steps .step > .table > .cell {
+  display: table-cell;
+  vertical-align: middle;
+  height: 536px;
+}
+.test .steps .step > .table > .cell > .top {
+  margin-bottom: 30px;
+}
+.test .steps .step > .table > .cell > .top .text .caption {
+  font-size: 24px;
+}
+.test .steps .step .answer .items {
+  font-size: 0;
+  margin-top: -15px;
+}
+.test .steps .step .answer .items .item {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.test .steps .step .answer .items .item .modal__label {
+  text-align: center;
+}
+
+.test .steps .step .answer .items .item .modal__label input[type=text],
+.test .steps .step .answer .items .item .modal__label input[type=tel]{
+  display: inline-block;
+}
+.test .steps .step .answer .items .item .radio {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 290px;
+  text-align: left;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.test .steps .step .answer .items .item .radio input[type="radio"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.test .steps .step .answer .items .item .radio label {
+  display: block;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.test .steps .step .answer .items .item .radio input[type="radio"] + label {
+  cursor: pointer;
+  position: relative;
+  padding-left: 47px;
+}
+.test .steps .step .answer .items .item .radio input[type="radio"] + label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 27px;
+  height: 27px;
+  border: 1px solid #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%
+}
+.test .steps .step .answer .items .item .radio input[type="radio"] + label::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 17px;
+  height: 17px;
+  background-color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  opacity: 0;
+}
+.test .steps .step .answer .items .item .radio input[type="radio"]:checked + label::after {
+  opacity: 1;
+}
+.test .steps .step .answer .items .item  input[type="text"],
+.test .steps .step .answer .items .item  input[type="tel"],
+.test .steps .step .answer .items .item textarea {
+  max-width: 460px;
+  font-size: 20px;
+  padding-bottom: 17px;
+  margin-bottom: 0;
+}
+.test .steps .step .answer.image .items {
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.test .steps .step .answer.image .items .item {
+  cursor: pointer;
+  position: relative;
+  width: 205px;
+  background-color: #fff;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.test .steps .step .answer.image .items .item img {
+  position: static;
+  width: auto;
+  margin: 0 auto;
+}
+.test .steps .step .answer.image .items .item.checked {
+  cursor: default;
+}
+.test .steps .step .answer.image .items .item::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 35px;
+  height: 35px;
+  background-color: #00003c;
+  background-repeat: no-repeat;
+  background-image: url('img/test/checked.png');
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  opacity: 0;
+}
+.test .steps .step .answer.image .items .item.checked::before {
+  opacity: 1;
+}
+.test .steps .step .answer.image .items .item .icon > .table {
+  display: table;
+  width: 100%;
+}
+.test .steps .step .answer.image .items .item .icon > .table > .cell {
+  display: table-cell;
+  vertical-align: middle;
+  height: 130px;
+}
+.test .steps .step .answer.image.big .items .item .icon > .table > .cell {
+  height: 192px;
+}
+.test .steps .step .answer.image .items .item .text {
+  padding: 5px;
+}
+.test .steps .step .answer.image .items .item .text > .table {
+  display: table;
+  width: 100%;
+}
+.test .steps .step .answer.image .items .item .text > .table > .cell {
+  display: table-cell;
+  vertical-align: middle;
+  height: 32px;
+}
+.test .steps .step .answer.image .items .item .text .caption {
+  font-size: 16px;
+  line-height: 1;
+  color: #00003c;
+}
+.test .steps .step .buttons {
+  /*font-size: 0;*/
+  margin-top: 30px;
+}
+.test .steps .step .buttons .button {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0;
+}
+.test .steps .step .buttons .button.prev {
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: 35px;
+}
+.test .complete {
+  display: none;
+  padding: 50px 0 30px;
+}
+
+input[type="text"].error,
+input[type="tel"].error{
+  border-color: #f00!important;
+  background: #fcc!important;
+}
+
+.btn {
+  z-index: 1;
+}
+.btn::after, .btn::before, .button::after {
+  z-index: -1;
+}
+
+@media only screen and (max-width: 991px) {
+  .test.calculator__block .main {
+    padding-top: 0;
+  }
+
+  .test .steps {
+    padding-top: 0;
+  }
+  .calculator__block::before {
+    width: 100vw !important;
+    left: calc(50% - 50vw) !important;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+  }
+}
