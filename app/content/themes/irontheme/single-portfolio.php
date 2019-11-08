@@ -3,13 +3,13 @@
   <section class="ready-works">
     <div class="container">
       <div class="title title--no-number">
-        <h2> Работы <strong> Выполненные работы </strong>
+        <h2 data-aos="fade-right" data-aos-offset="600"> Работы <strong data-aos="fade-up" data-aos-offset="600"> Выполненные работы </strong>
         </h2>
       </div>
       <div class="ready-works__inner-wrapper">
         <?php $gallery = get_field( 'gallery' );
         if ($gallery): ?>
-          <div class="ready-works__img-slider ">
+          <div class="ready-works__img-slider " data-aos="fade-right" data-aos-duration="600">
           <div class="img-slider">
             <div class="img-slider__main"></div>
 
@@ -30,7 +30,7 @@
         </div>
         <?php endif; ?>
 
-        <div class="ready-works__info">
+        <div class="ready-works__info" data-aos="fade-left" data-aos-duration="600">
           <h3> Объект: <?php the_title(); ?> </h3>
 
           <?php $address = get_field( 'address' );
