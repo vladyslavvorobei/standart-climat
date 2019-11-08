@@ -3,7 +3,7 @@
   <section class="cases">
     <div class="container">
       <div class="title title--no-number">
-        <h2> Роботы <strong> Выполненые роботы </strong>
+        <h2 data-aos="fade-right" data-aos-offset="600"> Роботы <strong data-aos="fade-up" data-aos-offset="600"> Выполненые роботы </strong>
         </h2>
       </div>
     </div>
@@ -14,7 +14,7 @@
 
     if ($terms):
       foreach ($terms as $term): ?>
-      <div class="cases__block" style="background-image: url('<?php the_field( 'bg', $term ); ?>')">
+      <div class="cases__block" style="background-image: url('<?php the_field( 'bg', $term ); ?>')" data-aos="fade-up" data-aos-duration="600">
         <div class="container">
           <h3><?php echo $term->name; ?></h3>
 
