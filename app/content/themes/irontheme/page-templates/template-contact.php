@@ -7,7 +7,7 @@ get_header(); ?>
   <section class="contacts" style="background-image: url('<?php echo THEME_URL; ?>/img/contacts-bg.jpg')">
     <div class="container">
       <div class="title title--no-number">
-        <h2> контакты <strong> Обратная связь </strong>
+        <h2 data-aos="fade-right" data-aos-offset="600"> контакты <strong data-aos="fade-up" data-aos-offset="600"> Обратная связь </strong>
         </h2>
       </div>
       <form class="contacts__form form">
@@ -47,7 +47,7 @@ get_header(); ?>
   <section class="address" style="background-image: url('<?php echo THEME_URL; ?>/img/address-bg.jpg')">
     <div class="container">
       <div class="title title--no-number">
-        <h2> адрес <strong> ООО "Стандарт Климат " </strong>
+        <h2 data-aos="fade-right" data-aos-offset="600"> адрес <strong data-aos="fade-up" data-aos-offset="600"> ООО "Стандарт Климат " </strong>
         </h2>
       </div>
       <div class="address__grid">
@@ -55,14 +55,14 @@ get_header(); ?>
         $phone = get_field( 'phone', 'option' );
         $schedule = get_field( 'schedule', 'option' );
         if ($address): ?>
-        <div class="address__block">
+        <div class="address__block" data-aos="fade-up">
           <img src="<?php echo THEME_URL; ?>/img/address-icon-1.png" alt="">
           <h3> Адрес: </h3>
           <p><?php echo $address; ?></p>
         </div>
         <?php endif; ?>
         <?php if ($phone): ?>
-          <div class="address__block">
+          <div class="address__block" data-aos="fade-up">
             <img src="<?php echo THEME_URL; ?>/img/address-icon-2.png" alt="">
             <h3> Телефоны: </h3>
             <p>
@@ -71,7 +71,7 @@ get_header(); ?>
           </div>
         <?php endif; ?>
         <?php if ($schedule): ?>
-          <div class="address__block">
+          <div class="address__block" data-aos="fade-up">
             <img src="<?php echo THEME_URL; ?>/img/address-icon-3.png" alt="">
             <h3> Часы работы: </h3>
             <?php echo $schedule; ?>
@@ -83,7 +83,7 @@ get_header(); ?>
   <section class="requisites">
     <div class="container">
       <div class="title title--no-number">
-        <h2> реквизиты <strong> Наши реквизиты </strong>
+        <h2 data-aos="fade-right" data-aos-offset="600"> реквизиты <strong data-aos="fade-up" data-aos-offset="600"> Наши реквизиты </strong>
         </h2>
       </div>
       <div class="requisites__inner-wrapper">
