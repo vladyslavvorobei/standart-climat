@@ -233,6 +233,8 @@
 }
 .test .complete {
   display: none;
+  max-width: 55em;
+  margin-left: auto;
   padding: 50px 0 30px;
 }
 
@@ -256,6 +258,12 @@ input[type="tel"].error{
 
 
 /* Media */
+@media only screen and (max-width: 1191px) {
+  .test .complete {
+    max-width: 45em;
+  }
+}
+
 @media only screen and (max-width: 991px) {
   .test.calculator__block .main {
     padding-top: 0;
@@ -271,5 +279,10 @@ input[type="tel"].error{
     -webkit-background-size: cover;
     background-size: cover;
     z-index: -1;
+  }
+
+  .test .complete {
+    max-width: none;
+    margin: 0 auto;
   }
 }

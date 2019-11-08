@@ -3,7 +3,7 @@
   <section class="cases">
     <div class="container">
       <div class="title title--no-number">
-        <h2 data-aos="fade-right" data-aos-offset="600"> Роботы <strong data-aos="fade-up" data-aos-offset="600"> Выполненые роботы </strong>
+        <h2 data-aos="fade-right" data-aos-offset="600"> Работы <strong data-aos="fade-up" data-aos-offset="600"> Выполненые рыботы </strong>
         </h2>
       </div>
     </div>
