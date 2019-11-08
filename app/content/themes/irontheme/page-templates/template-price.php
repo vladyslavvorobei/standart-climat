@@ -7,7 +7,7 @@ get_header(); ?>
   <section class="calculator">
     <div class="container">
       <div class="title title--no-number">
-        <h2> калькулятор <strong> Онлайн-расчет стоимости </strong>
+        <h2 data-aos="fade-right" data-aos-offset="600"> калькулятор <strong data-aos="fade-up" data-aos-offset="600"> Онлайн-расчет стоимости </strong>
         </h2>
       </div>
       <form class="test calculator__block">
