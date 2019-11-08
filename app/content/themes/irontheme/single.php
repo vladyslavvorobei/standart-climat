@@ -25,7 +25,7 @@ switch ($post_type) {
       <section class="articles-inner">
         <div class="container">
           <div class="title title--no-number">
-            <h2> <?php echo $title; ?> <strong> <?php the_title(); ?> </strong>
+            <h2 data-aos="fade-right" data-aos-offset="600"> <?php echo $title; ?> <strong data-aos="fade-up" data-aos-offset="600"> <?php the_title(); ?> </strong>
             </h2>
           </div>
           <div class="articles-inner__content">
